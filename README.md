@@ -2,9 +2,8 @@
 
 # Eternal-Linux
 
-Eternal Linux is a secure fedora based linux distro it is replacement of Triaxis GNU/Linux
+Eternal Linux is a fedora based linux distro it is replacement of Triaxis GNU/Linux
 There is no iso it is built in pure diy fedora based secure distro
-Eternal Linux is Fedora Based Alpine Linux Like Distro Which It Uses Doas and BusyBox
 
 Eternal Linux supports a lot architecture
 
