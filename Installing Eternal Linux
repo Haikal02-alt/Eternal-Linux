@@ -1,0 +1,43 @@
+To install Eternal Linux Follow these steps
+
+1 Download ISO
+For Intel and AMD x86_64 systems ARM® aarch64 systems Power ppc64le systems IBM s390x zSystems
+https://www.fedoraproject.org/server/download/
+
+For x86 Systems
+https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/25/Server/i386/
+
+For armhfp Systems
+https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/36/Server/armhfp/
+
+2 If you see Software Selection Change Fedora Server Editon to Fedora Custom Operating System
+
+3 After you install run sudo dnf update && sudo dnf upgrade -y --refresh && sudo reboot
+
+4 run sudo dnf install links
+
+5 Run links https://github.com/Haikal02-alt/Eternal-Linux Then find Screenshot from 2026-04-19 20-14-55 then enter then name it to eternallinux-logo.png then ok
+
+6 Run sudo dnf install fedora-logos
+
+7 Run sudo mv /home/yourusername/eternallinux-logo.png /usr/share/pixmaps
+
+8 Run sudo cp /usr/share/pixmaps/eternallinux-logo.png /usr/share/pixmaps/fedora-logo.png
+sudo cp /usr/share/pixmaps/eternallinux-logo.png /usr/share/pixmaps/fedora_logo_med.png
+sudo cp /usr/share/pixmaps/eternallinux-logo.png /usr/share/pixmaps/fedora-logo-small.png
+sudo cp /usr/share/pixmaps/eternallinux-logo.png /usr/share/pixmaps/fedora-logo-sprite.png
+sudo cp /usr/share/pixmaps/eternallinux-logo.png /usr/share/pixmaps/fedora-gdm-logo.png
+sudo cp /usr/share/pixmaps/eternallinux-logo.png /usr/share/pixmaps/fedora-logo-sprite.svg
+sudo cp /usr/share/pixmaps/eternallinux-logo.png /usr/share/pixmaps/fedora-logo.ico
+sudo cp /usr/share/pixmaps/eternallinux-logo.png /usr/share/pixmaps/fedora_whitelogo_med.png
+
+9 Run sudo nano /etc/os-release
+Then Change Every Text That Not Link That Says Fedora Linux To Eternal Linux ID=fedora to ID=eternal PREETY_NAME="Fedora Linux 43 (Forty Three)" To PREETY_NAME="Eternal Linux 43 (Forty Three)"
+REDHAT_BUGZILLA_PRODUCT="Eternal" And REDHAT_SUPPORT_PRODUCT="Eternal"
+HOME_URL="https://github.com/Haikal02-alt/Eternal-Linux"
+
+10 Run sudo nano /etc/default/grub Then Change GRUB_DISTRIBUTOR="Eternal Linux" Then GRUB_DISABLE_SUBMENU=false Then GRUB_DISABLE_RECOVERY="false" Then GRUB_ENABLE_BLSCFG=false Then Run sudo grub2-mkconfig -o /boot/grub2/grub.cfg
+
+11 Change hostname (If you need it) Run sudo hostnamectl set-hostname new-hostname-here
+
+12 Run sudo dracut --regenerate-all --force
