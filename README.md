@@ -1,6 +1,6 @@
 <img width="752" height="122" alt="Screenshot from 2026-04-19 20-14-55" src="https://github.com/user-attachments/assets/45789f6f-9635-4cef-8318-476249614240" />
 
-# Eternal-Linux
+# Eternal Linux
 
 Eternal Linux is a fedora based linux distro it is replacement of Triaxis GNU/Linux
 There is no iso it is built in pure diy fedora based secure distro
