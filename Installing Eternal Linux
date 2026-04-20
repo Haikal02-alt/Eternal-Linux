@@ -30,6 +30,7 @@ sudo cp /usr/share/pixmaps/eternallinux-logo.png /usr/share/pixmaps/fedora-gdm-l
 sudo cp /usr/share/pixmaps/eternallinux-logo.png /usr/share/pixmaps/fedora-logo-sprite.svg
 sudo cp /usr/share/pixmaps/eternallinux-logo.png /usr/share/pixmaps/fedora-logo.ico
 sudo cp /usr/share/pixmaps/eternallinux-logo.png /usr/share/pixmaps/fedora_whitelogo_med.png
+sudo cp /usr/share/pixmaps/eternallinux-logo.png /usr/share/pixmaps/fedora_whitelogo.svg
 
 9 Run sudo nano /etc/os-release
 Then Change Every Text That Not Link That Says Fedora Linux To Eternal Linux ID=fedora to ID=eternal PREETY_NAME="Fedora Linux 43 (Forty Three)" To PREETY_NAME="Eternal Linux 43 (Forty Three)"
