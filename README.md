@@ -12,7 +12,7 @@ Intel and AMD x86_64 systems
 ARM® aarch64 systems
 Power ppc64le systems
 IBM s390x zSystems
-x86
+Legacy x86
 armhfp
 
 For 
