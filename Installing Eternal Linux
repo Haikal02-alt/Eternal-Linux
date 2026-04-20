@@ -36,6 +36,8 @@ sudo cp /usr/share/pixmaps/eternallinux-logo.png /usr/share/pixmaps/fedora_white
 Then Change Every Text That Not Link That Says Fedora Linux To Eternal Linux ID=fedora to ID=eternal PREETY_NAME="Fedora Linux 43 (Forty Three)" To PREETY_NAME="Eternal Linux 43 (Forty Three)"
 REDHAT_BUGZILLA_PRODUCT="Eternal" And REDHAT_SUPPORT_PRODUCT="Eternal"
 HOME_URL="https://github.com/Haikal02-alt/Eternal-Linux"
+Change BUG_REPORT_URL="https://bugzilla.redhat.com/" To BUG_REPORT_URL="https://github.com/Haikal02-alt/Eternal-Linux/issues/1" Change SUPPORT_URL="https://ask.fedoraproject.org/" To SUPPORT_URL="https://github.com/Haikal02-alt/Eternal-Linux/discussions/2"
+Then Change LOGO=fedora-logo-icon To LOGO=/usr/share/pixmaps/eternallinux-logo.png
 
 10 Run sudo nano /etc/default/grub Then Change GRUB_DISTRIBUTOR="Eternal Linux" Then GRUB_DISABLE_SUBMENU=false Then GRUB_DISABLE_RECOVERY="false" Then GRUB_ENABLE_BLSCFG=false Then Run sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 
