@@ -8,8 +8,6 @@ Eternal Linux is a fedora based linux distro it is replacement of Triaxis GNU/Li
 There is no iso it is built in pure diy fedora based secure distro
 Eternal Linux is not a fedora spin its a complete independent fedora based distro
 
-Inspired By Robert Sturla Eternal Linux
-
 Eternal Linux can be considered lightweight in philosophy, but not in the same way as distros like Alpine or Arch minimal installs
 
 Eternal Linux and Lightweight Characteristics
